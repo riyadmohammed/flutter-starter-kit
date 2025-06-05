@@ -16,13 +16,6 @@ This project contains 2 flavors:
 
 ### App Info
 
-#### Appcenter (Android distribution)
-- Staging: [Flutter Starter Kit Staging](https://appcenter.ms/orgs/AgmoStudio/apps/Flutter-Starter-Kit)
-- Production: [Flutter Starter Kit Production](https://appcenter.ms/orgs/AgmoStudio/apps/Flutter-Starter-Kit-Production)
-
-#### TestFlight (iOS Distribution)
-The apps are setup in the Agmo Studio Sdn. Bhd. Apple Developer Program account. The apps are [Mobile Starter Kit Staging](https://appstoreconnect.apple.com/apps/6505145773/distribution/ios/version/inflight) (Staging env) and [Mobile Starter Kit](https://appstoreconnect.apple.com/apps/6505145506/distribution/ios/version/inflight) (Production env)
-
 #### Bundle IDs
 - Staging: com.dumbdumb.my.stag
 - Production: com.dumbdumb.my
@@ -457,24 +450,6 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
 
 ---
 
-## Pipelines Processes (CICD)
-
-### What needs to be changed when creating new projects using this template
-1. Variable group data 
-2. Secure files
-3. Service connections (App center and SonarQube)
-
-
-## Important Prerequisite for iOS Build
-
-To ensure a successful iOS build, it is crucial to install the FlutterFire CLI (Command Line Interface).
-
-Please follow the instructions in the [FlutterFire CLI documentation](https://firebase.google.com/docs/flutter/setup?platform=ios#install-cli-tools) to install and use this tool. This step is essential to prevent potential build failures or runtime errors in your iOS application.
-
-## Credits
-
-A big thanks and appreciation to the good work from [very_good_cli] teams, as this project is taking base reference from the sample project created using [very_good_cli]. We learn a lot from their outstanding "very good core" which support multi flavoring, localization and many more out of the box.
-In this dumbdumb project, we are slimming down the package, applying various mod and elements on top of it, to make it as an more product oriented and ready to use starter pack for Flutter project.
 
 [coverage_badge]: coverage_badge.svg
 [flutter_localizations_link]: https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html
